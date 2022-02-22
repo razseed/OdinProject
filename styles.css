@@ -22,15 +22,15 @@
             
             }            
 .herowrap   {display: flex;
-             justify-content: center;
+             justify-content:left;
              padding:50px 25px 25px 0;
-             margin:25px;
+             margin:25px 25px 25px 25px;
 
 
             }
 .herotext   {font-size: 18px;
              color: #E5E7EB;
-             }
+             margin:0px;}
 
 
 nav         {font-size: 18px;
@@ -46,7 +46,8 @@ nav         {font-size: 18px;
 
 h1          {font-size: 48px;
              font-weight: bolder;
-             color:#F9FAF8
+             color:#F9FAF8;
+             margin:0px 15px 5px 0px;
             } 
 
 h2          {text-align: center;
@@ -63,10 +64,12 @@ button      {background-color: #3882F6;
              padding:5px 25px 5px 25px;
 
              } 
-.button2     {border:2px solid white;}        
+.button2     {border:2px solid white;
+              justify-content: right;
+               }        
 
 .container2 {text-align: center;
-
+             margin: -10px -10px 20px -10px;
             } 
 
 
@@ -90,12 +93,17 @@ button      {background-color: #3882F6;
 .container3 {background-color:#E5E7EB;
              font-size: 36px;
              color:#1F2937;
-            
+             padding:50px 100px 50px 100px;
+             margin: -10px -10px 20px -10px;
             } 
      
 .container4 {background-color: #3882F6;
              color:white;
-             text-align: center;
+             justify-content: center;
+             margin:75px 100px 75px 100px;
+             padding: 0px;
+             border: #3882F6 10px solid;
+             border-radius: 5px;
 
             }   
 
@@ -103,5 +111,6 @@ button      {background-color: #3882F6;
 footer      {background-color:#1F2937;
              color:white;
              text-align: center;
-            
+             margin:20px -10px -10px -10px;
+             padding:50px;
             }
