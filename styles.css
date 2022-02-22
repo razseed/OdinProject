@@ -1,25 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,700i,900,900i');
+
+* {font-family: 'Roboto', sans-serif;
+}
 
 .container1  
             {color:#F9FAF8;
              font-size: 24px;
              background-color:#1F2937; 
-             margin:auto;
-             border:-25px;
+             margin: -10px -10px 20px -10px ;
+             padding:0px 50px 75px 50px;       
              
             } 
+
+.navbar
+            {
+             font-size:18px;
+            }
+.navbar1
+            {font-weight: bolder;
+            font-size:18px;
+            
+            }            
 .herowrap   {display: flex;
              justify-content: center;
-}
+             padding:50px 25px 25px 0;
+             margin:25px;
+
+
+            }
 .herotext   {font-size: 18px;
              color: #E5E7EB;
-             margin:auto;}
+             }
 
 
 nav         {font-size: 18px;
              color: #E5E7EB;
+             display: flex;
+             justify-content: space-between;
+             
             }
 
-
+.placeholder {background-color: grey;
+              padding:50px 100px 25px 100px;
+              align-items: center;}
 
 h1          {font-size: 48px;
              font-weight: bolder;
@@ -27,17 +50,24 @@ h1          {font-size: 48px;
             } 
 
 h2          {text-align: center;
+             font-weight:bolder;
+             color:#1F2937;
             }             
+button,
+.button2    {font-weight:bold;}
 
 button      {background-color: #3882F6;
              color:white;
              border:2px solid #3882F6;
-             border-radius: 5px;
+             border-radius: 7px;
+             padding:5px 25px 5px 25px;
 
              } 
 .button2     {border:2px solid white;}        
 
-.container2 {text-align: center;} 
+.container2 {text-align: center;
+
+            } 
 
 
 .wrapper   {display:flex;
