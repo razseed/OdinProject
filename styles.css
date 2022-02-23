@@ -19,18 +19,20 @@
 .navbar1
             {font-weight: bolder;
             font-size:18px;
+            max-width: 1520px;
             
             }            
 .herowrap   {display: flex;
              justify-content:left;
-             padding:50px 25px 25px 0;
-             margin:25px 25px 25px 25px;
+             padding:50px 0px 25px 0;
+             margin:25px 0px 25px 0px;
 
 
             }
 .herotext   {font-size: 18px;
              color: #E5E7EB;
-             margin:0px;}
+             margin:0px;
+             max-width: 50%;}
 
 
 nav         {font-size: 18px;
@@ -48,12 +50,16 @@ h1          {font-size: 48px;
              font-weight: bolder;
              color:#F9FAF8;
              margin:0px 15px 5px 0px;
+             max-width:50%;
             } 
 
 h2          {text-align: center;
              font-weight:bolder;
              color:#1F2937;
-            }             
+            }  
+h3          {justify-content: center;
+            text-align: center;
+             }                       
 button,
 .button2    {font-weight:bold;}
 
@@ -66,44 +72,52 @@ button      {background-color: #3882F6;
              } 
 .button2     {border:2px solid white;
               justify-content: right;
-               }        
+               }  
+.button2div  {display:inline-block;
+              margin:0 0 0 40%;
+              justify-content:center;}                   
 
-.container2 {text-align: center;
-             margin: -10px -10px 20px -10px;
+.container2 {
+             justify-content: center;
+             
             } 
 
 
 .wrapper   {display:flex;
-            align-items: center;
-            border: red;
-            border-width:2px;
-            border-style: dotted;
             flex-flow:row-wrap;
-            justify-content: center;
-            margin: 5px;
+            max-width: 80%;
+            max-height: 300px;
+            min-height: 175px;
+            margin:50px 10% 0px 10%;
+
            }              
             
 .content    {border: 3px solid #3882F6;
              border-radius: 15px;
              flex: 1;
-             margin: 10px;
+             margin: 20px;
              padding: 30px;
+             justify-content: center;
+
             }      
 
 .container3 {background-color:#E5E7EB;
              font-size: 36px;
              color:#1F2937;
              padding:50px 100px 50px 100px;
-             margin: -10px -10px 20px -10px;
+             margin: 100px -10px 20px -10px;
+             font-style:italic;
+             font-weight:lighter;
             } 
      
 .container4 {background-color: #3882F6;
              color:white;
-             justify-content: center;
+             
              margin:75px 100px 75px 100px;
-             padding: 0px;
+             padding: 25px 50px 25px 50px;
              border: #3882F6 10px solid;
              border-radius: 5px;
+             display:flex;
 
             }   
 
