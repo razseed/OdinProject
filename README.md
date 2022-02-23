@@ -1,2 +1,2 @@
 # OdinProject
-Landing page Odin project Pree Javascript
+Landing page Odin project pre-Javascript
